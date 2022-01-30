@@ -1,0 +1,36 @@
+<%- include('../includes/admin-head.ejs') %>
+	<link rel="stylesheet" href="../../public/css/detail.css">
+</head>
+
+<body>
+	<%- include('../includes/admin-navigation.ejs') %>
+	
+	<main class="containers">
+		<div class="request-data">
+			<ul class="request-data-items">
+				<li>Name: <span><%= request.first_name %> <%= request.sir_name %></span></li>
+				<li><%= request.req_type%></li>
+				<li>Email: <span><%= request.email %></span></li>
+				<li>Mineral: <span><%= request.mineral_name %></span></li>
+				<li>Amount: <span><%= request.amount %></span></li>
+				<li>Price: <span><%= request.price %></span></li>
+				<li>description: <span><%= request.description  %></span></li>			
+			</ul>
+		</div>
+		<div class="email-response">
+			<form action="/request-detail" method="post">
+				<textarea name="response" id="response" rows="15"></textarea>
+				<input type="hidden" name="email_adress" value="<%= request.email%>">
+				<input type="hidden" name="id" value="<%= request.id%>">
+				<button class="btn">
+					Send
+				</button>
+			</form>
+		</div>
+		<hr>
+	</main>
+
+</body>
+</html>
+
+

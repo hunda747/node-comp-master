@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+.info {
+ background-color: whitesmoke;
+ padding: 2rem;
+ text-align: center;
+}
+.info .orange {
+ padding: 1rem;
+ background-color: #f8b029e6;
+}
+.info .orange .btn{
+ border: 1px solid black;
+ border-radius: 5px;
+}
+.info .orange .btn:hover{
+ background-color: rgb(73, 43, 5);
+ color: white;
+}
+
+.rowss .differ{
+ margin: 1rem 0;
+ padding: 10px;
+ background-color: whitesmoke;
+ border: 2px solid #f8b029e6;
+ border-radius: 15px;
+}
+
+.row .col h2{
+ padding: 50px;
+ margin-bottom: 4rem;
+}
+
+.index_card {
+ padding: 2rem;
+ background-color: #f8b029e6;
+ margin: 50px 25px;
+
+}
+
+.index_card .btn {
+ align-items: center;
+}
+
+.index_card p{
+ text-align: justify;
+ padding: 2rem 0;
+}
+
+.row .learn{
+ padding: 4.5rem 0;
+}
+.row .learn .fancybox-title{
+ size: 18px;
+ color: #f8b029e6;
+}
+
+.row .learn .fancybox-content{
+ size: 80px;
+}
+
+.bottom-footer{
+ background-color: #f8b029e6;
+ padding: 1rem;
+}
+

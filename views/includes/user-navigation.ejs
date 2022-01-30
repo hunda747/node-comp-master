@@ -1,0 +1,36 @@
+<header >
+  <nav id="main-nav">
+    <div class="containers">
+      <div>
+        <a href="/"><img src="http://www.mom.gov.et/wp-content/uploads/2021/10/momlogo.jpg" alt="NewsGrid" class="logo"></a>
+      </div>
+      <div>
+        <ul>
+          <li><a class="<%= path === '/' ? 'current' : '' %>" href="/">Home</a></li>
+          <!-- <li><a class="<%= path === '/import' ? 'current' : '' %>" href="/import_page">Import</a></li> -->
+          <!-- <li><a class="<%= path === '/register' ? 'current' : '' %>" href="/register">Register</a></li> -->
+          <li>
+            <div class="dropdown">
+              <span>Register</span>
+              <div class="dropdown-content">
+               <p><a href="/import_page">Import</a></p>
+               <p><a href="/export_page">Export</a></p>
+              </div>
+            </div>
+          </li>
+          <li><a class="<%= path === '/overview' ? 'current' : '' %>" href="/overview">Overview</a></li>
+          <li><a class="<%= path === '/mining_licensing' ? 'current' : '' %> " href="/mining_licensing">Licensing </a>
+          </li>
+          <li><a class="<%= path === '/regulation' ? 'current' : '' %> " href="/regulation">Regulation </a>
+          </li>
+          <!-- and Legislations -->
+          <li><a class="<%= path === '/gemstones' ? 'current' : '' %>" href="/gemstones">Gemstones</a></li>
+          <li><a class="<%= path === '/contact_us' ? 'current' : '' %> " href="/contact_us">contact us</a>
+          </li>
+  
+          <!-- <li><a class="<%= path === '/adminLogin' ? 'current' : '' %>" href="/login">Login</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

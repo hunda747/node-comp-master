@@ -1,0 +1,58 @@
+li {
+	list-style: none;
+}
+
+.containers {
+	padding: 1rem 1rem;
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+margin: 2rem;
+}
+
+.containers .request-datail{
+margin: auto;
+align-content: center;
+max-width: 1000px;
+width: 100%;
+}
+
+.containers .request-datail .name{
+font-weight: bold;
+padding: 1rem 1rem 0 1rem;
+}
+
+.containers .request-datail .card .half{
+width: 50%;
+float: left;
+}
+
+.containers .request-datail .card .des{
+width: 100%;
+}
+
+.containers .request-datail #response{
+width: 100%;
+}
+
+.containers .request-data-items {
+margin: 5px;
+font-weight: bold;
+}
+
+.containers .request-data-items span{
+font-weight: normal;
+}
+
+.containers .email-response{
+padding: 0 2.3rem;
+}
+
+.containers .email-response #response{
+width: 100%;
+padding: 10px;
+}
+
+.btn{
+border: 1px solid black;
+padding: 0.5rem 1rem;
+border-radius: 5px;
+}
